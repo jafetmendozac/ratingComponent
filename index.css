@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    font-size: 13px;
+    font-family: 'Overpass', 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box-1 {
+  width: 360px;
+  height: 380px;
+  background: hsl(213, 19%, 18%);
+  border-radius: 24px;
+  display: flex;
+  text-align: left;
+}
+
+.wrapper-content-box {
+  margin: auto;
+}
+
+.circle-icon {
+  width: 40px;
+  height: 40px;
+  background: hsl(216, 12%, 8%);
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.tittle {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.text {
+  color: hsl(216, 12%, 54%);
+  width: 296px;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.container-circle {
+  color: hsl(216, 12%, 54%);
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.circle {
+  background-color: hsl(216, 12%, 8%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.wrapper-input {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  width: 100%;
+}
+
+input { 
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+  font-weight: 700;
+}
+
+input:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.box-2 {
+  width: 360px;
+  height: 380px;
+  background: hsl(213, 19%, 18%);
+  border-radius: 24px;
+  display: flex;
+}
+
+.datafono {
+  width: 135px;
+}
+
+.rating {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 8%);
+  width: 150px;
+  height: 15px;
+  padding: 6px 6px 5px 8px;
+  margin: auto;
+  border-radius: 18px;
+  margin-top: 25px;
+}
